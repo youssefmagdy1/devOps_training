@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#Linux --
+#Linux 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	dist=`lsb_release -i`
 	dist=${dist:16}

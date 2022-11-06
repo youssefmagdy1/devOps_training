@@ -9,7 +9,7 @@ done
 cd $reboBath 
 
 if git merge-base --is-ancestor origin/master master; then
-   echo "The repo is updated"
+    echo Empty
 else
-   echo "Don't forget to rebase!"
-fi  
+    echo "Don't forget to rebase!"
+fi
