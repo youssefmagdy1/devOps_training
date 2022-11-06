@@ -12,4 +12,4 @@ if git merge-base --is-ancestor origin/master master; then
    echo "The repo is updated"
 else
    echo "Don't forget to rebase!"
-fi 
+fi  
