@@ -8,8 +8,10 @@ done
 
 cd $reboBath 
 
+git fetch  --all
+
 if git merge-base --is-ancestor origin/master master; then
-    echo Empty
+    echo "your are up to date "
 else
     echo "Don't forget to rebase!"
 fi

@@ -1,0 +1,11 @@
+a list:
+- 1
+- 2
+- 3
+a string: hello world
+another dict:
+  foo: bar
+  key: value
+  the answer: 42
+new: 1
+new key: 2
