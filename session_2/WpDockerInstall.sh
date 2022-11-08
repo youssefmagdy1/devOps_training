@@ -37,6 +37,7 @@ fi
 mkdir ./my_wordpress/
 cd ./my_wordpress/
 touch docker-compose.yml
+sudo apt install wget
 wget https://raw.githubusercontent.com/youssefmagdy1/devOps_training/master/session_2/docker-compose.yml -O  docker-compose.yml
 docker-compose up -d 
 
