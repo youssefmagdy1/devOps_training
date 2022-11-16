@@ -28,6 +28,8 @@
 		
 		
 ### session 4 
-	this session's task was to write a script that watch the log file and if it faced a custom word like "Error", it noitfy the user by write the date 
-	the error waw found .\n 
-	the tail command with -
+
+this session's task was to write a script that watch the log file and if it faced a custom word like "Error", it noitfy the user by write the date the error waw found .\n 
+the tail command with the -fn0 option will get the new lines that were written ot the log file, if it matched the custom word, 
+will write the error and when it was found. \n 
+the tail command will run in the background.
